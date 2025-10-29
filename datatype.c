@@ -46,10 +46,22 @@ int main() {
     printf("Result: %.3f\n", q);
     printf("Percentage: %.2f\n", q*100);
     */
-    //8
-    short int small = -100;
-    unsigned int count = 25;
-    long double precise = (long double)small/count;
+    //8&9
+    int normalInt = 1000; // standard int
+    double normalDouble = 3.14; // standard double
+    short int small = -100; // smaller int
+    unsigned int count = 25; // only positive int
+    long int big = 1234567890; // larger int
+    long long int veryBig = 9223372036854775807; // very large int
+    unsigned long long int huge = 18446744073709551615U; // very large, only positive
+    long double precise = 3.141592653589793238L; // extended precision
+    printf("%d\n", normalInt);
+    printf("%lf\n", normalDouble);
+    printf("%hd\n", small);
+    printf("%u\n", count);
+    printf("%ld\n", big);
+    printf("%lld\n", veryBig);
+    printf("%llu\n", huge);
     printf("%Lf\n", precise);
     
     return 0;
