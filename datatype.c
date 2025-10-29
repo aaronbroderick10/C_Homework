@@ -21,7 +21,7 @@ int main() {
     double ds = 12e4;
     printf("Float: %f\n", fs);
     printf("Double: %lf\n", ds);
-    */
+    
     
     //5
     float floatVar = 3.5;
@@ -29,6 +29,17 @@ int main() {
     printf("Precision 2: %.2f\n", floatVar);
     printf("Precision 4: %.4f\n", floatVar);
     printf("Precision 6: %f\n", floatVar);
+    */
+
+    //6
+    int int5;
+    float float5;
+    double double5;
+    char char5;
+    printf("Int size: %zu\n", sizeof(int5));
+    printf("Float size: %zu\n", sizeof(float5));
+    printf("Double size: %zu\n", sizeof(double5));
+    printf("Char size: %zu\n", sizeof(char5));
     
     return 0;
 }
