@@ -39,12 +39,18 @@ int main() {
     printf("Float size: %zu\n", sizeof(float5));
     printf("Double size: %zu\n", sizeof(double5));
     printf("Char size: %zu\n", sizeof(char5));
-    */
+    
     //7
     int var1 = 2, var2 = 5;
     float q = (float)var1/var2;
     printf("Result: %.3f\n", q);
     printf("Percentage: %.2f\n", q*100);
+    */
+    //8
+    short int small = -100;
+    unsigned int count = 25;
+    long double precise = (long double)small/count;
+    printf("%Lf\n", precise);
     
     return 0;
 }
